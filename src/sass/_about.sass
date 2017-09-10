@@ -1,0 +1,60 @@
+.about
+	width: 100%
+	&__container
+		max-width: 1180px
+		padding:  95px 20px 10px 20px
+		width: 100% 
+		margin: 0 auto		
+	&__title
+		text-align: center
+		color: #ff8400
+		font-family: Roboto
+		font-size: 18px
+		font-weight: 400
+		text-transform: uppercase
+	&__title-descr
+		margin-top: 14px
+		text-align: center 
+		color: #343434
+		font-family: Roboto
+		font-size: 36px
+		font-weight: 700		
+		margin-bottom: 89px
+	&__items
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		+r(1024)
+			justify-content: space-around
+	&__item
+		max-width: 338px
+		width: 100% 
+		min-width: 280px		
+		height: 248px
+		position: relative
+		margin-bottom: 81px
+	&__item-bg 
+		background-image: url(../img/items/item-bg.png)
+		background-repeat: no-repeat
+		width: 147px
+		height: 120px
+		margin: 0 auto
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-bottom: 32px		
+	&__item-image 
+		
+	&__item-title
+		text-align: center
+		margin-bottom: 20px
+		color: #343434
+		font-family: Roboto
+		font-size: 18px
+		font-weight: 500
+	&__item-descr
+		text-align: center
+		color: #5c5c5c
+		font-family: Roboto
+		font-size: 18px
+		font-weight: 400

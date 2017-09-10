@@ -1,0 +1,21 @@
+<div class="about">
+	<div class="about__container">
+
+		<div class="about__title">How it works</div>
+		<div class="about__title-descr">Lorem ipsum is simply</div>
+
+		<div class="about__items">
+
+			{% for n in arrs.item %}
+			<div class="about__item">
+				<div class="about__item-bg">
+				<img class="about__item-image" src="{{n.img}}" alt="">
+				</div>				
+				<div class="about__item-title">{{n.title}}</div>
+				<div class="about__item-descr">{{n.descr}}</div>
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>

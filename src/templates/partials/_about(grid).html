@@ -1,0 +1,21 @@
+<div class="aboutGrid">
+	<div class="aboutGrid__container">
+
+		<div class="aboutGrid__title">How it works</div>
+		<div class="aboutGrid__title-descr">This block is made with CSS Grid Layout</div>
+
+		<div class="aboutGrid__items">
+
+			{% for n in arrs.item %}
+			<div class="aboutGrid__item item{{n.id}}">
+				<div class="aboutGrid__item-bg">
+				<img class="aboutGrid__item-image" src="{{n.img}}" alt="">
+				</div>				
+				<div class="aboutGrid__item-title">{{n.title}}</div>
+				<div class="aboutGrid__item-descr">{{n.descr}}</div>
+			</div>
+			{% endfor %}
+
+		</div>
+	</div>
+</div>

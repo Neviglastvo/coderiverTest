@@ -1,0 +1,28 @@
+.navigation
+	position: absolute
+	top: 25px
+	right: 10px
+	+r(1024)
+		right: 20px
+	+r(720)
+		display: none
+	&__list
+		display: inline
+	&__item
+		display: inline-block
+		position: relative
+		margin-left: 62px
+		+r(1024)
+			margin-left: 30px
+	&__link
+		color: white
+		font-family: Roboto
+		font-size: 18px
+		font-weight: 400
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+
+.logo
+	position: absolute
+	top: 26px
